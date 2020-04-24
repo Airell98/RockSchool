@@ -52,7 +52,7 @@ class HomeController {
 				let arr = [];
 				for (let i = 0; i < err.errors.length; i++) {
 					arr.push(err.errors[i].message);
-				}
+				}s
 				res.redirect(`/registrasi/?error=${arr.join(',')}`);
       });
       
